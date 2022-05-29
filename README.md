@@ -33,17 +33,57 @@ And thus, it is used in many computer vision systems such as:
 - Robotics and autonomous navigation
 
 
-## Benefits 
+
+## Detecting ArUco markers with OpenCV and Python 
+
+### Prerequists & tools
+
+- Python 3  
+- opencv package : pip install opencv-contrib-python
+
+### Steps 
+
+1. Load the image 
+2. Load the appropriate Dictionnary
+3. Define arucro parameters
+4. Detect aruco
 
 
-The primary benefits of using ArUco markers are:
+###  What is an ArUco dictionary
 
-- They are robust, allowing the possibility of applying error detection and correction techniques.
-- ArUco markers are built into the OpenCV library via the cv2.aruco submodule.
-- The OpenCV library itself can generate ArUco markers via the cv2.aruco.drawMarker function.
-- There are online ArUco generators that can be used.
-- There are ROS (Robot Operating System) implementations of ArUco markers.
-- And from an implementation perspective, ArUco marker detections tend to be accurate, even when using the default parameters.
+
+Creating the parameters to the ArUco detector (which is typically just a single line of code using the default values)
+Applying the cv2.aruco.detectMarkers to actually detect the ArUco markers in your image or video stream
+From there we’ll review our project directory structure and implement two Python scripts:
+
+
+### 1. Load the image 
+### 2. Load the appropriate Dictionnary 
+
+Use the cv2.aruco.Dictionary_get function to grab the dictionary of ArUco markers we’re using.
+### 3. Define arucro parameters
+
+Define the ArUco detection parameters using cv2.aruco.DetectorParameters_create.
+### 4. Detect Aruco 
+
+We will use the ```cv2.aruco.detectMarker``` function, it accepts 3 arguments:
+
+- **image**: The input image that we want to detect ArUco markers in
+- **arucoDict**: The ArUco dictionary we are using
+- **parameters**: The ArUco parameters used for detection (unless you have a good reason to modify the parameters, the default parameters returned by cv2.aruco.DetectorParameters_create are typically sufficient)
+
+```python
+arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_50)
+arucoParams = cv2.aruco.DetectorParameters_create()
+(corners, ids, rejected) = cv2.aruco.detectMarkers(image, arucoDict,
+	parameters=arucoParams)
+```
+
+And it returns 3 values: 
+
+- **corners**: A list containing the (x, y)-coordinates of our detected ArUco markers
+- **ids**: The ArUco IDs of the detected markers
+- **rejected**: A list of potential markers that were found but ultimately rejected due to the inner code of the marker being unable to be parsed (visualizing the rejected markers is often useful for debugging purposes)
 
 
 
