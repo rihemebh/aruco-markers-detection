@@ -39,7 +39,7 @@ And thus, it is used in many computer vision systems such as:
 ### Prerequists & tools
 
 - Python 3  
-- opencv package : pip install opencv-contrib-python
+- opencv package : ``pip install opencv-contrib-python``
 
 ### Steps 
 
@@ -49,12 +49,8 @@ And thus, it is used in many computer vision systems such as:
 4. Detect aruco
 
 
-###  What is an ArUco dictionary
+#### What is an ArUco dictionary
 
-
-Creating the parameters to the ArUco detector (which is typically just a single line of code using the default values)
-Applying the cv2.aruco.detectMarkers to actually detect the ArUco markers in your image or video stream
-From there we’ll review our project directory structure and implement two Python scripts:
 
 
 ### 1. Load the image 
