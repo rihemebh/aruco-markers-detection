@@ -1,4 +1,4 @@
-# aruco-markers-detection
+# Aruco Markers Detection
 
 ## What’s an Aruco marker ?
 
