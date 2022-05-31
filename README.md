@@ -49,18 +49,32 @@ And thus, it is used in many computer vision systems such as:
 4. Detect aruco
 
 
-#### What is an ArUco dictionary
+#### 1. Load the image 
 
+```python
 
+image = cv2.imread(path)
+image = imutils.resize(image, width=600)
 
-### 1. Load the image 
-### 2. Load the appropriate Dictionnary 
+```
+#### 2. Load the appropriate Dictionnary 
 
-Use the cv2.aruco.Dictionary_get function to grab the dictionary of ArUco markers we’re using.
-### 3. Define arucro parameters
+Use the ``cv2.aruco.Dictionary_get`` function to grab the dictionary of ArUco markers we’re using.
 
-Define the ArUco detection parameters using cv2.aruco.DetectorParameters_create.
-### 4. Detect Aruco 
+```python
+arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_50)
+```
+
+#### 3. Define arucro parameters
+
+Define the ArUco detection parameters using ``cv2.aruco.DetectorParameters_create``.
+
+```python
+
+arucoParams = cv2.aruco.DetectorParameters_create()
+
+```
+#### 4. Detect Aruco 
 
 We will use the ```cv2.aruco.detectMarker``` function, it accepts 3 arguments:
 
@@ -69,8 +83,7 @@ We will use the ```cv2.aruco.detectMarker``` function, it accepts 3 arguments:
 - **parameters**: The ArUco parameters used for detection (unless you have a good reason to modify the parameters, the default parameters returned by cv2.aruco.DetectorParameters_create are typically sufficient)
 
 ```python
-arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_50)
-arucoParams = cv2.aruco.DetectorParameters_create()
+
 (corners, ids, rejected) = cv2.aruco.detectMarkers(image, arucoDict,
 	parameters=arucoParams)
 ```
