@@ -95,5 +95,7 @@ And it returns 3 values:
 - **rejected**: A list of potential markers that were found but ultimately rejected due to the inner code of the marker being unable to be parsed (visualizing the rejected markers is often useful for debugging purposes)
 
 
+### Result
 
+<img src="https://github.com/rihemebh/aruco-markers-detection/blob/main/impl/assets/detection_result.PNG" />
 
