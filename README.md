@@ -43,12 +43,6 @@ And thus, it is used in many computer vision systems such as:
 
 ### Steps 
 
-1. Load the image 
-2. Load the appropriate Dictionnary
-3. Define arucro parameters
-4. Detect aruco
-
-
 #### 1. Load the image 
 
 ```python
@@ -60,6 +54,8 @@ image = imutils.resize(image, width=600)
 #### 2. Load the appropriate Dictionnary 
 
 Use the ``cv2.aruco.Dictionary_get`` function to grab the dictionary of ArUco markers we’re using.
+
+the function accepts one paraeter which is the id of the dictionnary [(click here to check all dict ids)](https://github.com/rihemebh/aruco-markers-detection/blob/main/impl/assets/detection_result.PNG)
 
 ```python
 arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_50)
@@ -95,5 +91,7 @@ And it returns 3 values:
 - **rejected**: A list of potential markers that were found but ultimately rejected due to the inner code of the marker being unable to be parsed (visualizing the rejected markers is often useful for debugging purposes)
 
 
+### Result
 
+<img src="https://github.com/rihemebh/aruco-markers-detection/blob/main/impl/assets/detection_result.PNG" />
 
