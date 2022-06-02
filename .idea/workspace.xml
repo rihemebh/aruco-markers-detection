@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e56290e9-dd74-41cf-83e8-28b2600063e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/Controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/Service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/assets/corner missed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/assets/mission_incomplete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/assets/no_robot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impl/assets/valid_state.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aruco-markers-detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aruco-markers-detection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/impl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/detection_result.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/not_validated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/test.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/test1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/test2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/assets/validated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/impl/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/impl/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A1SIyGDKI98wXuixP3Furn37kp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/rihemebenhassan/Desktop/aruco-markers-detection/impl/assets",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rihemebenhassan\Desktop\aruco-markers-detection\impl\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e56290e9-dd74-41cf-83e8-28b2600063e1" name="Changes" comment="" />
+      <created>1654175527380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654175527380</updated>
+      <workItem from="1654175528057" duration="5530000" />
+      <workItem from="1654184450139" duration="9569000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
